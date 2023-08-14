@@ -43,8 +43,8 @@
 /* styles.css */
 
 .chat-app {
-  width: 600px;
-  height: 90vh;
+  width: 650px;
+  height: 85vh;
   
 
   display: flex;
@@ -70,7 +70,7 @@
 .message {
   margin-bottom: 10px;
   padding: 10px;
-  border: 1px solid #eee;
+  border: 0px solid #eee;
   border-radius: 5px;
   display: flex;
   justify-content: space-between;
@@ -87,6 +87,8 @@
   display: flex;
    
   align-items: center;
+
+  
 }
 
 .message-input input {
@@ -101,3 +103,19 @@
   border: none;
   cursor: pointer;
 }
+
+.emoji-icon {
+  cursor: pointer;
+  width: 27px;
+  height: 34px;
+ background-color: white;
+ padding: 2px;
+
+
+
+}
+
+.emoji-icon:hover {
+  background-color: #f0f0f0; 
+}
+
